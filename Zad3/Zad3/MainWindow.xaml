@@ -1,0 +1,14 @@
+﻿<Window x:Class="Zad3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zad3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnStworzTablice" Content="Stworz Tablice" HorizontalAlignment="Left" Margin="136,155,0,0" VerticalAlignment="Top" Height="62" Width="117" Click="btnStworzTablice_Click"/>
+        <ListBox x:Name="lbWyswietlaczTablicy" HorizontalAlignment="Left" Height="180" Margin="356,100,0,0" VerticalAlignment="Top" Width="222" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+
+    </Grid>
+</Window>
